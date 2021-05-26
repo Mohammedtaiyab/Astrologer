@@ -1,3 +1,6 @@
+
+
+
 const request=new XMLHttpRequest();
 const astrologer=[];
 request.open("GET","https://zodiac.dexteroot.ml/api/v1/astrologer/all");
@@ -71,8 +74,6 @@ axios
  
 })
 .catch(error => console.error(error));
-
-
 
 
 
